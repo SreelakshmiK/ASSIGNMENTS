@@ -1,0 +1,9 @@
+<?php
+$age = array("sreelakshmi"=> 24,"sree"=>23,"annu"=>22);
+$mark = array("sreelakshmi"=> 70,"sree"=>50,"annu"=>60);
+asort($mark);	
+foreach ($mark as $key => $val)
+ {
+echo "mark[".$key."]=".$val."\n";
+}
+?>
